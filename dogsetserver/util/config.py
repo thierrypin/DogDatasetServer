@@ -3,7 +3,7 @@
 from configparser import ConfigParser
 
 
-def config(filename='database.ini', section=''):
+def config(filename='config.ini', section=''):
     # create a parser
     parser = ConfigParser()
     # read config file
